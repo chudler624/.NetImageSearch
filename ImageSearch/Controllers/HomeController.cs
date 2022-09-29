@@ -15,13 +15,24 @@ namespace ImageSearch.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
         public IActionResult Privacy()
         {
+            
             return View();
         }
+
+        public IActionResult ImageResults(string searchTerm)
+        {
+            var imageSearchApi= new ImageSearchApi();
+            var images = imageSearchApi.GetImage(searchTerm);
+
+            return View(images);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

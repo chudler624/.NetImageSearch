@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\chudl\Desktop\Final Project\ImageSearch\ImageSearch
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/chudl/Desktop/Final Project/ImageSearch/ImageSearch/Views/Home/ImageResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbWFnZVJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/chudl/Desktop/Final Project/ImageSearch/ImageSearch/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

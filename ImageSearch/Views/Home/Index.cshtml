@@ -1,8 +1,32 @@
-﻿@{
+﻿<head>
+  <link rel="stylesheet" href="site.css">
+</head>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Image Finder</h1>
+</div>
+
+
+<h2><form asp-controller="Home" asp-action="ImageResults">
+    <p>
+        <input type="text" name="searchTerm" />
+        <input type="submit" value="Filter" />
+    </p>
+</form></h2>
+
+
+<div class="row">
+  <div class="column">
+    <img src = "https://d2dfxqxblmblx4.cloudfront.net/wp-content/uploads/2017/02/18144924/SalonPhotos_Cover_1024x680.jpg" alt=" photo taker" width="250" height="250 style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://bestirtech.com/blog/wp-content/uploads/2020/04/saved-search.jpg" alt="person searching" width= "250" height="250">
+  </div>
+  <div class="column">
+    <img src="https://post.healthline.com/wp-content/uploads/2019/08/friends-selfie-mixed-race-happy-1200x628-facebook.jpg" alt="people smiling looking at phone" width="250" height="250" />
+      </div>
 </div>

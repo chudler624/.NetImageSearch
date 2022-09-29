@@ -16,3 +16,33 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+h1 {
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+* {
+    margin:auto;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    margin: auto;
+    justify-content: center;
+    flex: 33.33%;
+    padding: 5px;
+}
